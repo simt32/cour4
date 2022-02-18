@@ -1,0 +1,21 @@
+#titre1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    border: solid;
+    background-color: violet;
+    
+}
+#titre2{
+    
+    font-family: serif;
+    
+}
+
+li{
+    border: solid;
+    padding:0;
+    margin:0;
+    list-style:none;
+    width: 180px; /* seule ligne rajoutée */
+  }

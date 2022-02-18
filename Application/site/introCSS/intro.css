@@ -1,0 +1,59 @@
+
+/*
+écrire une regle css
+*/
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fe3
+
+}
+
+/*
+déclaration d'une classe
+*/
+.important{
+    font-variant: small-caps;
+    display: block;
+}
+
+/*
+nommer un identifiant
+*/
+#titre1{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*
+pseudo class
+*/
+p:hover{
+    /*survol de la souris
+    */
+    background-color: rgb(117, 3, 3);
+}
+/*
+pseudo élément
+*/
+p::first-letter{
+    font-size: 1.5em;
+}
+div{
+    background-color: rgb(15, 223, 205);
+    
+   
+    width: 100%;
+    display: inline;
+    
+}
+tr,td{
+    
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid rgb(211, 15, 15) ;
+
+}
+table tr td i{
+    color: #fe3;
+}
